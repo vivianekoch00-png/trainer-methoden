@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { fetchMethod } from "../lib/api";
 import type { Method } from "../lib/api";
