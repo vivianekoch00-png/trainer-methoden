@@ -24,8 +24,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/methods" element={<Methods />} />
           <Route path="/method/:id" element={<MethodDetail />} />
+                    <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Navigate to="/" replace />} />
-          <Route path="/admin" element={<Admin />} />
+
         </Routes>
       </main>
     </div>
