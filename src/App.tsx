@@ -1,4 +1,5 @@
-
+import Admin from "./pages/Admin";
+``
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Methods from "./pages/Methods";
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/methods" element={<Methods />} />
           <Route path="/method/:id" element={<MethodDetail />} />
           <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
     </div>
